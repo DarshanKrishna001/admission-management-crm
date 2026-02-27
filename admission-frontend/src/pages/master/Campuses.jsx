@@ -1,0 +1,1 @@
+export { Campuses as default } from './CampusesDepartments'

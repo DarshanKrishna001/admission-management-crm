@@ -1,0 +1,42 @@
+# Maven
+**/target/
+**/mvn/
+**/.mvn/wrapper/maven-wrapper.jar
+**/!**/src/main/**/target/
+**/!**/src/test/**/target/
+
+# IDE
+**/.idea/
+**/*.iml
+**/.vscode/
+**/.classpath
+**/.project
+**/.settings/
+
+# Frontend
+**/node_modules/
+**/dist/
+**/.env
+**/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log 
+
+cat > .gitignore << 'EOF'
+Task/
+node_modules/
+target/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+*.log
+dist/
+.env
+.mvn/wrapper/maven-wrapper.jar
+EOF
