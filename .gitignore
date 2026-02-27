@@ -40,3 +40,43 @@ dist/
 .env
 .mvn/wrapper/maven-wrapper.jar
 EOF
+
+Task/.metadata/
+Task/**/.gitignore
+Task/**/.gitattributes
+Task/**/target/
+Task/**/mvnw
+Task/**/mvnw.cmd
+Task/**/.mvn/
+node_modules/
+dist/
+*.log
+.env
+
+
+
+# Eclipse
+Task/.metadata/
+**/.classpath
+**/.project
+**/.factorypath
+**/.settings/
+**/.gitattributes
+
+# Maven compiled files
+**/target/
+**/mvnw
+**/mvnw.cmd
+**/.mvn/
+
+# Frontend
+node_modules/
+dist/
+
+# Logs and env
+*.log
+.env
+
+# OS
+.DS_Store
+Thumbs.db

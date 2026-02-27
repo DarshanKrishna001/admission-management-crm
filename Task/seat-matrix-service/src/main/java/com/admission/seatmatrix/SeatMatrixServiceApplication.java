@@ -1,0 +1,13 @@
+package com.admission.seatmatrix;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+public class SeatMatrixServiceApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(SeatMatrixServiceApplication.class, args);
+    }
+}
